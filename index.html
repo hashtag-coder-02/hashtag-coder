@@ -1,3 +1,4 @@
+
 <u><h2>Day1</h2></u>
 <i><u><p>Main class 9th se hu.</p></u></i>
 <i><u><p> main html ke basic things ko smjhh liya hu.</p></i></u>
@@ -13,17 +14,10 @@
 <h2><u>Day3</h2></u>
 <center>
  <p>
-     <img
-        src="myphoto (1).jpeg" height="200" 
-   width="200" alt="my first image">
-</p>
 </center>
-<img src="image.jpg" style="float:right; 
-            margin-left:30px;" height="200"
-    width="100">
-  <br>
+
   <center>
-  <a href="https://google.com" target="_blank"> <img src= "biru.jpg" height= "220" width="300">
+  <a href="https://google.com" target="_blank"> <img src= "photo3.jpg" height= "220" width="300">
 <br><i>click here</i>
   </a>
   </center>
@@ -32,7 +26,7 @@
 <i> yt source</i> </a>
 <a href="https://instagram.com" 
         target="_blank"> 
-  <img src="reception.jpg" style="float:right;"
+  <img src="photo2.jpg" style="float:right;"
       height ="250px" width="200px" >
 <br><br>
  <br> <br> <br><br> <br> <br> <br><br><br><br><br>
@@ -57,7 +51,29 @@
   </style>
 </head>
 <center>
- <a href = "https://www..com" target="_blank"
+ <a href = "https://www.metaporn.com" target="_blank"
   <i><b><i> DUKH HARNI</i> </b></i>
     </a>
     </center>
+
+
+
+<img id="musicImage" src="photo4.jpg" style="float:right;"
+      height ="250px" width="400px"  alt="Tap to listen">
+
+<audio id="myMusic">
+    <source src="mymusic2.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+const image = document.getElementById("musicImage");
+const music = document.getElementById("myMusic");
+
+image.addEventListener("click", function() {
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
+});
+</script>
